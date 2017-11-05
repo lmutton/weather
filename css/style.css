@@ -1,0 +1,108 @@
+.container {
+  width: 300px;
+  height: 500px;
+  background: url("../images/sunny.jpg");
+  background-size: cover;
+  margin-top: 80px;
+  padding: 0;
+  position: relative;
+  color: #fff;
+  align-items: center;
+  overflow: hidden;
+  text-align: center;
+  font-family: 'Didact Gothic', sans-serif; }
+  .container .location-date {
+    position: absolute;
+    top: 23%;
+    transform: translateY(-77%);
+    min-width: 100%;
+    text-align: center;
+    letter-spacing: 5px; }
+  .container .temp-c-f {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    min-width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #56838c; }
+    .container .temp-c-f .c-f-btns {
+      display: inline-block; }
+      .container .temp-c-f .c-f-btns .cent {
+        border-bottom: 2px solid #56838c;
+        color: #56838c;
+        font-weight: bold; }
+      .container .temp-c-f .c-f-btns .faren {
+        color: #A9AEB0;
+        font-weight: bold; }
+      .container .temp-c-f .c-f-btns .block-item {
+        display: block;
+        background-color: transparent;
+        border-radius: 0px; }
+  .container .weather-des-tip {
+    position: absolute;
+    top: 75%;
+    transform: translateY(-25%);
+    min-width: 100%;
+    padding: 20px;
+    text-align: center;
+    letter-spacing: 5px; }
+    .container .weather-des-tip .tip {
+      padding-top: 20px;
+      letter-spacing: 3px; }
+
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  .container {
+    min-width: 100%;
+    min-width: 100vw;
+    max-height: 100%;
+    max-height: 100vh;
+    margin: 0;
+    font-size: 2em; }
+    .container .location-date .location {
+      font-size: 1.1em; }
+    .container .location-date .date {
+      font-size: 0.6em; }
+    .container .temp-c-f {
+      font-size: 2.2em; }
+    .container .weather-des-tip .description {
+      font-size: 0.7em; }
+    .container .weather-des-tip .tip {
+      font-size: 0.5em; } }
+@media screen and (max-width: 490px) {
+  .container {
+    min-width: 100%;
+    min-width: 100vw;
+    min-height: 100%;
+    min-height: 100vh;
+    margin: 0;
+    font-size: 2em; }
+    .container .location-date .location {
+      font-size: 1.1em; }
+    .container .location-date .date {
+      font-size: 0.6em; }
+    .container .temp-c-f {
+      font-size: 2.2em; }
+    .container .weather-des-tip .description {
+      font-size: 0.7em; }
+    .container .weather-des-tip .tip {
+      font-size: 0.5em; } }
+@media screen and (min-width: 768px) and (max-width: 1366px) {
+  .container {
+    min-width: 100%;
+    min-width: 100vw;
+    min-height: 100%;
+    min-height: 100vh;
+    margin: 0; }
+    .container .location-date .location {
+      font-size: 2.8em; }
+    .container .location-date .date {
+      font-size: 2em; }
+    .container .temp-c-f {
+      font-size: 5.5em; }
+    .container .weather-des-tip .description {
+      font-size: 2.3em; }
+    .container .weather-des-tip .tip {
+      font-size: 1.8em; } }
+
+/*# sourceMappingURL=style.css.map */
