@@ -2,12 +2,14 @@
 <html >
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>phone weather</title>
   <script src="https://use.fontawesome.com/e186a6e390.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" ></script>
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
   <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Khula" rel="stylesheet">
 
 
 
@@ -15,35 +17,19 @@
 
 <body>
   <div class="container">
-    <div class="location-date">
-      <div class="location">Stockholm</div>
-    	<div class="date"></div>
+    <div class="date"></div>
+    <div class="c-f-btns">
+      <button class="btn cent block-item">C</button>
+      <button class="btn faren block-item">F</button>
     </div>
-  	<div class="temp-c-f">
-      <span class="temp">10°</span>
-      <div class="c-f-btns">
-        <button class="btn cent block-item">C</button>
-        <button class="btn faren block-item">F</button>
-      </div>
-    </div>
-    <div class="weather-des-tip">
-    	<div class="description">rain, rain, go away.</div>
-      <div class="tip">remember your wellies and umbrella</div>
+    <div class="location">Stockholm</div>
+    <div class="temp">10°</div>
+    <div class="description-cont">
+      <div class="description">rain</div>
     </div>
   </div>
-
+  <h5>Responsive Design <i class="fa fa-heart" aria-hidden="true"></i></h5>
 <script type="text/javascript" src="scripts/index.js"></script>
 </body>
 
 </html>
-
-<!--
-snow:
-frost:
-thunder:
-rain:
-mist/fog:
-clear/sunny:
-cloudy/overcast:
-
- -->
